@@ -1,0 +1,318 @@
+@import url("reset.css"); /* This is to reset all default browser CSS to none.*/
+
+/*----------------------------------------------*/
+/*These are needed for the tab functionality and drag/drop functionality to work*/
+.ui-tabs-hide 			{ visibility:hidden;}
+.ui-tabs-panel { position:absolute; width:100%;}
+
+.draggedout {
+	  visibility:visible;
+	  position:absolute; 
+	  width:auto; 
+	  height:auto;
+	  }
+
+
+/*------------------------------------------------*/
+
+/*General body styles. Change to your own colors! */
+body {
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+	/*background: #eee;
+	color: #666;
+	
+	background:#000;	*/
+	min-height:100%;	
+	min-width:100%;	
+}
+
+
+/* This specifies styles that will affect all the boxes. Change to your own colors!*/
+#bodyArea, #swatchesArea, .ui-tabs-panel{
+border: 1px solid #888;
+background: #fff;
+}
+
+/* NOTE: You can change the colors for the tabs further below . . . .*/
+
+/*this puts rounded corners around the boxes*/
+.ui-corner-all, .ui-tabs-panel{
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px;
+}
+
+/* this puts rounded corners around the tabs*/
+.ui-corner-top a{
+-moz-border-radius-topleft:5px;
+-webkit-border-top-left-radius:5px;
+-moz-border-radius-topright:5px;
+-webkit-border-top-right-radius:5px;
+}
+
+/*This div contains the whole dollmaker. It can be placed anywhere on the page and everything will follow
+  Keep the height unspecified so that it can stretch to accomodate varied number of pieces */
+#dollmaker_container {
+	position: absolute;
+	top: 665px; /*Change these values to whatever you want*/
+	left: 43px;
+}
+
+/*-------------------------------------------------------------------*/
+/* The box that contains the basebody */
+#bodyArea
+{
+	/*position: absolute;
+	top: -637px; */
+	width: 250px;
+	min-height: 590px;
+	height: auto;
+	text-align: center;
+	left: 1px;
+	pointer-event:none;
+	margin:5px
+}
+
+/* Position of the base body inside its container*/
+#bodyArea .skintone {margin-top:2px;}
+
+
+/*-------------------------------------------------------------------*/
+/* The area under the base that has links for skintones */
+#swatchesArea {
+width: 96px;
+padding: 0px 76px;
+margin-left: 5px;
+
+}
+
+/* individual links for thumbnails */
+#swatchesArea a {
+display: block;
+float: left;
+margin: 2px 2px 7px 2px;
+width: 20px;
+height:20px;
+position:relative;
+}
+
+/* the title of that area */
+#swatchesArea h3 {
+font-size: 12px;
+font-weight: bold;
+clear: both;
+padding: 7px 0 5px 0;
+}
+
+/*-------------------------------------------------------------------*/
+/*The tabbed area at the right that contains all the draggable pieces*/
+#piecesArea {
+	position: relative;
+	width: 100%;
+}
+
+
+
+/*-------------------------------------------------------------------*/
+/* Anti Right-click */
+#anti-rightclick {
+display:none;
+width: 170px;
+height:  30px;
+line-height: 1.2;
+background: #fff;
+border: 1px solid #ccc;
+padding: 3px 3px 3px 15px;
+position: absolute;
+z-index: 9999;
+}
+
+
+
+
+
+
+/*slider starts*/
+ #slider{
+        width:100%;
+        height:170px;
+       /* background-image: url('images/background2.png');*/
+        background-repeat: repeat-x;
+        clear:both;
+      }
+      #pictures{
+        float: left;
+        height: 574px;
+        width: 249px;
+        position: relative;
+       
+      }
+      
+      #pictures IMG{
+        position:absolute;
+        top:0;
+        left:0;
+		margin-left: 7px;
+      }
+	
+      
+      #pictures IMG#spinner{
+        position:absolute;
+        top:45%;
+        left:27%;
+      }
+      
+      #logo{
+        float: right;
+        height: 200px;
+        width: 147px;
+        position: relative;
+        /*background-image:url('images/logo.png');*/
+        background-repeat:no-repeat;
+        background-position:center center;
+        overflow:hidden;
+      }
+      
+      #controls{
+        position:fixed;
+        bottom:-30px;
+        height:30px;
+        width:147px;
+        /*background-image:url('images/background_nav.png');*/
+        background-repeat: repeat-x;
+      }
+    /*  
+      #controls ul{
+        margin:0px;
+        padding:0px;
+        list-style-type: none;
+        height: 30px;
+        width: 147px;
+        margin: auto;
+      }*/
+      
+      #controls ul a{
+        padding-right: 5px;
+
+        padding-left: 5px;
+        display: block;
+        line-height: 30px;
+        text-decoration: none;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 14px;
+        color: white;
+        text-align:center;
+      }
+      
+      #controls ul li {
+        float: left;
+        width: 73px;
+        border-left: 1px solid white;
+      }
+      
+      #controls ul li.first {
+        border-left: none;
+      }
+	  
+/*slider end*/
+
+
+/* Mouse over starts*/
+
+		
+		span.enlarge li{
+		display:inline-block; /*places the images in a line*/
+		position: relative; /*allows precise positioning of the popup image when used with position:absolute - see support section */
+		z-index: 0; /*resets the stack order of the list items - we'll increase in step 4. See support section for more info*/
+		margin:10px 40px 0 20px; /*space between the images*/
+		}
+		
+		
+		span.enlarge span{
+		position:absolute; /*see support section for more info on positioning*/
+		left: -9999px; /*moves the span off the page, effectively hidding it from view*/
+		}
+		
+		span.enlarge span:hover{
+		z-index: 50; /*places the popups infront of the thumbnails, which we gave a z-index of 0 in step 1*/ 
+		cursor:pointer; /*changes the cursor to a hand*/
+		}
+		/***We bring the large image back onto the page by reducing left from -9999px (set in step 2) to figures below***/ 
+		span.enlarge:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
+		bottom: -150%; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+		left: 20%; /*distance from the left of the thumbnail to the left of the popup image*/
+		}
+		/***To make it look neater we used :nth-child to set a different left distance for each image***/ 
+		span.enlarge :hover:nth-child(2) span{
+		left: -100px; 
+		}
+		span.enlarge :hover:nth-child(3) span{
+		left: -100px; 
+		}
+		
+	/*	span.enlarge img{
+		give the thumbnails a frame
+		background-color:#eae9d4; frame colour
+		padding: 6px; frame size
+		add a drop shadow to the frame
+		-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+		-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+		box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+		and give the corners a small curve
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		}*/
+		
+		
+		/***Override the styling of images set in step 3 to make the frame smaller and the background darker***/
+		span.enlarge span img{
+		padding: 2px; /*size of the frame*/
+		background: #E6E6E6; /*colour of the frame*/
+		}
+	
+		/***Style the <span> containing the framed images and the caption***/
+		span.enlarge span{
+		/**Style the frame**/
+		padding-left:10px;
+		padding-top:10px; /*size of the frame*/
+		background:#eae9d4; /*colour of the frame*/
+		/*add a drop shadow to the frame*/
+		-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+		-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+		box-shadow: 0 0 20px rgba(0,0,0, .75);
+		/*give the corners a curve*/
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius:8px;
+		/**Style the caption**/
+		 /*font-family: 'Droid Sans', sans-serif;Droid Sans is available from Google fonts
+		font-size:.9em;
+		text-align: center;
+		color: #495a62;*/
+		}
+		
+		/* span.draggedout: hover
+		{
+			position:absolute;
+			left: -9999px;
+			visibility:hidden;
+		}*/
+		
+		
+		
+		
+/*Mouse Over end */
+		
+		
+		
+		
+			
+		
+			  
+		 
+
+
+
+
+

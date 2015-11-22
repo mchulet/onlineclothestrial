@@ -1,0 +1,98 @@
+[19-Aug-2015 07:45:57 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(35): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 08:15:21 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(35): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 09:36:50 UTC] PHP Fatal error:  Class 'User' not found in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/getTwitterData.php on line 28
+[19-Aug-2015 09:54:51 UTC] PHP Fatal error:  Class 'User' not found in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/getTwitterData.php on line 29
+[19-Aug-2015 10:31:51 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:33:06 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:34:55 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:35:39 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:36:32 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:37:46 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:37:51 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:37:58 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:38:07 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:38:25 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(34): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:46:07 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(37): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 10:51:21 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(39): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 11:05:06 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(40): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
+[19-Aug-2015 11:07:03 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Could not json decode the token' in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php:153
+Stack trace:
+#0 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/Google_Client.php(174): Google_OAuth2->setAccessToken(Array)
+#1 /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/index.php(40): Google_Client->setAccessToken(Array)
+#2 {main}
+  thrown in /home/mchulet1/public_html/ONLINECLOTHESTRIAL.COM/google/src/auth/Google_OAuth2.php on line 153
